@@ -1,0 +1,119 @@
+<!-- Test Framework Configuration XML file -->
+<configuration>
+  <property>
+    <name>workflow.selenium.server.address</name>
+    <value>172.16.205.124:4454</value>
+  </property>
+  <property>
+    <name>workflow.server.url</name>
+    <value>http://172.26.2.18:9091/</value>
+  </property>
+  <property>
+    <name>workflow.login.name</name>
+    <value>admin</value>
+  </property>
+  <property>
+    <name>workflow.login.password</name>
+    <value>123</value>
+  </property>
+
+  <property>
+    <name>selenium.server.address</name>
+    <value>172.16.202.126:4454</value>
+  </property>
+
+
+
+
+
+  <property>
+    <name>hdfs.uri</name>
+    <value>hdfs://172.16.132.53:8020</value>
+  </property>
+  <property>
+    <name>datacenter.url</name>
+    <value>webhdfs://172.16.1.161:30257/CaseData</value>
+  </property>
+  <property>
+    <name>zookeeper.uri</name>
+    <value>tw-node1360:2181,tw-node1361:2181,tw-node1362:2181</value>
+  </property>
+  <property>
+    <name>zookeeper.quorum</name>
+    <value>tw-node1360:2181,tw-node1361:2181,tw-node1362:2181</value>
+  </property>
+  <property>
+    <name>inceptor.server</name>
+    <value>172.16.132.124</value>
+  </property>
+  <property>
+    <name>inceptor.metastore</name>
+    <value>tw-node1360</value>
+  </property>
+  <property>
+    <name>metastore.mysql.user</name>
+    <value>hiveuser</value>
+  </property>
+  <property>
+    <name>metastore.mysql.password</name>
+    <value>password</value>
+  </property>
+  <property>
+    <name>kerberos.principal</name>
+    <value>tw-node1360@TDH</value>
+  </property>
+  <property>
+    <name>DEFAULT_HBASE_KEYTAB_FILE</name>
+    <value>/etc/hyperbase1/conf/hyperbase.keytab</value>
+  </property>
+  <property>
+    <name>DEFAULT_HDFS_KEYTAB_FILE</name>
+    <value>/etc/hdfs1/conf/hdfs.keytab</value>
+  </property>
+  <property>
+    <name>HIVE_KEYTAB_FILE</name>
+    <value>/etc/inceptor1/conf/inceptor.keytab</value>
+  </property>
+  <property>
+    <name>DEFAULT_HDFS_SITE_FILE</name>
+    <value>/etc/hdfs1/conf/hdfs-site.xml</value>
+  </property>
+  <property>
+    <name>DEFAULT_CORE_SITE_FILE</name>
+    <value>/etc/hdfs1/conf/core-site.xml</value>
+  </property>
+
+
+
+
+
+
+  <property>
+    <name>inceptor.type</name>
+    <value>Kerberos</value>
+  </property>
+  <property>
+    <name>ldap.user</name>
+    <value>hive</value>
+  </property>
+  <property>
+    <name>ldap.password</name>
+    <value>123</value>
+  </property>
+
+
+  <property>
+    <name>guardian.server</name>
+    <value>https://node01:8380/api/v1</value>
+  </property>
+  <property>
+    <name>guardian.admin.name</name>
+    <value>admin</value>
+  </property>
+  <property>
+    <name>guardian.admin.password</name>
+    <value>123</value>
+  </property>
+
+
+</configuration>

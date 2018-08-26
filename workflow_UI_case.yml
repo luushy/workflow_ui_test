@@ -1,0 +1,29 @@
+actions:
+  - desc: selenium
+    action: selenium
+    args:
+      component: workflow
+      src: UI_test/test_case.py
+      stage: '1'
+
+ - desc: selenium
+    action: selenium
+    args:
+      component: workflow
+      src: UI_test/test_case.py
+      stage: '2'
+
+  - desc: selenium
+    action: selenium
+    args:
+      component: workflow
+      src: UI_test/test_case.py
+      stage: '3'
+
+  - desc: selenium
+    action: selenium
+    args:
+      component: workflow
+      src: UI_test/test_case.py
+      stage: '4'
+
